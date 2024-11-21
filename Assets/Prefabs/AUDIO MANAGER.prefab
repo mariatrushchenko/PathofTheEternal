@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3085158150801112034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3085158150801112032}
+  - component: {fileID: 3085158150801112035}
+  m_Layer: 0
+  m_Name: AUDIO MANAGER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3085158150801112032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3085158150801112034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3085158150801112035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3085158150801112034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470d4f0203b2693499cf882560ecc964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - soundName: PlayerHit
+    audioClip: {fileID: 8300000, guid: 40743fd523ab03e46acb1287183ce509, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: Bow Release
+    audioClip: {fileID: 8300000, guid: acbe727f7b285df438a410a53953cd56, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: Arrow Hit
+    audioClip: {fileID: 8300000, guid: 65f654092ec162a49a84b31257306c76, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: Player Punch 1
+    audioClip: {fileID: 8300000, guid: eddde933ce1333a40ad16c48e81832ec, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.35
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: Player Punch 2
+    audioClip: {fileID: 8300000, guid: eddde933ce1333a40ad16c48e81832ec, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.35
+    pitch: 1.2
+    loop: 0
+    source: {fileID: 0}
+  - soundName: Player Death
+    audioClip: {fileID: 8300000, guid: b406a9a0bf5b70744bd8f71ef8476a2f, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: Game Over
+    audioClip: {fileID: 8300000, guid: 1d813f74b06e6754895e0c1d6fa19111, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: Enemy Death
+    audioClip: {fileID: 8300000, guid: 4af5438936eab4b4d955f8c5b0d4ad3e, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.35
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: Money
+    audioClip: {fileID: 8300000, guid: 2345cc6e6325039438bdac04f424a691, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: StatGain
+    audioClip: {fileID: 8300000, guid: 200010a33912f694fa57d12d4ab92719, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: Error
+    audioClip: {fileID: 8300000, guid: 6efd97eb2464c1f40b3ef8a080b17647, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: MouseOver
+    audioClip: {fileID: 8300000, guid: 47b38459242ab4749a71842c486bab20, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: MouseClick
+    audioClip: {fileID: 8300000, guid: 1853e0c89a280a342808f3245bf755bb, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: Quest Complete
+    audioClip: {fileID: 8300000, guid: ec7a088a7d811c743bcd6a25bc41acdc, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: Item Feedback
+    audioClip: {fileID: 8300000, guid: 98a0135ac426e864c8d57e4f611e72de, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: Player Dash
+    audioClip: {fileID: 8300000, guid: 3dac9e2f1924fc247b7d5543611eaaab, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundName: Mercenary Shoot
+    audioClip: {fileID: 8300000, guid: dd9c6678be7390b49b6588d0907248b5, type: 3}
+    audioMixer: {fileID: 24300002, guid: 8292b0d9374e93446a9d52d430264ca0, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
